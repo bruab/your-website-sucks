@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  flex: 400px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+}
+
+.full-width {
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex: 400px;
+}
+
