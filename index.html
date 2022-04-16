@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="/css/paper.css" />
-    <title>this saas website sucks</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/flex.css" />
+    <title>Your Website Sucks</title>
+    <link rel="icon" href="/img/favicon.ico" sizes="192x192" />
   </head>
+
   <body>
-    <div class="row flex-spaces">
-      <div class="alert alert-primary">sign up for our webinar</div>
-    </div>
-    <div class="paper container">
-      <h1>this saas website sucks</h1>
-      <p>This is where some content would go.</p>
-    </div>
-    <div class="row flex-spaces child-borders">
-      <label class="paper-btn margin" for="modal-1">Open Modal!</label>
-    </div>
-    <input class="modal-state" id="modal-1" type="checkbox" />
-    <div class="modal">
-      <label class="modal-bg" for="modal-1"></label>
-      <div class="modal-body">
-        <label class="btn-close" for="modal-1">X</label>
-        <h4 class="modal-title">Modal Title</h4>
-        <h5 class="modal-subtitle">Modal Subtitle</h5>
-        <p class="modal-text">
-          This is an example of modal which is implemented with pure CSS! :D
-        </p>
-        <label for="modal-1">Nice!</label>
+    <header>
+      <h1>YourWebsiteSucks.FYI</h1>
+    </header>
+
+    <!-- "THE BOOK" -->
+    <section>
+      <article>
+        <div>
+          <h2>The Book</h2>
+          <p>Read the beta edition. Be a part of history while cleaning up your website messes.</p>
+        </div>
+      </article>
+      <article>
+        <div>
+          <img src="/img/book-cover.png" height="400px">
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <!-- "THE NEWSLETTER" -->
+      <div class="column">
+        <article>
+          <h2>The Newsletter</h2>
+          <img src="https://www.fillmurray.com/g/200/300">
+          <p>... blurb</p>
+          <p>(signup widget)</p>
+        </article>
       </div>
-    </div>
+
+      <!-- "THE VIDEOS" -->
+      <div class="column">
+        <article>
+          <h2>The Videos</h2>
+          <img src="https://www.fillmurray.com/g/400/300">
+          <p>Watch interviews with usability, design, and conversion experts as they tell you what not to do.</p>
+        </article>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>© 2022 YourWebsiteSucks.FYI</p>
+    </footer>
+
   </body>
 </html>

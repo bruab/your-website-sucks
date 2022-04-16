@@ -1,42 +1,53 @@
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
 }
 
-header {
-  background: purple;
-  height: 100px;
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin: 36px;
+  font-size: 5rem;
 }
 
-h1 {
-  text-align: center;
-  color: white;
-  line-height: 100px;
-  margin: 0;
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 4rem;
 }
 
 article {
   padding: 10px;
   margin: 10px;
-  background: aqua;
   flex: 400px;
 }
 
 section {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  flex-flow: row wrap;
+  flex-flow: row;
+  border: 1px black solid;
 }
 
-.full-width {
-  flex-flow: row wrap;
-  display: flex;
+div {
+  text-align: center;
 }
 
-.column {
-  display: flex;
-  flex: 400px;
+div.column {
+  flex: 1;
+  border: 1px black solid;
 }
 
+img {
+  margin: auto;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+}
+
+footer {
+  text-align: center;
+}
