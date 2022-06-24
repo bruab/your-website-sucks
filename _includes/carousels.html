@@ -1,0 +1,54 @@
+<!-- Two competing carousels -->
+<link rel="stylesheet" href="/assets/css/flickity.css" media="screen">
+<link rel="stylesheet" href="/assets/css/slick.css" media="screen">
+<style>
+  .gallery-cell {
+    width: 100%;
+    height: 500px;
+    margin-right: 10px;
+  }
+  .header-gallery .gallery-cell {
+    width: 100%;
+    height: 200px;
+    margin-right: 10px;
+  }
+  .header-gallery .gallery-cell img {
+    height:100%;
+  }
+</style>
+
+<div class="header-gallery">
+  <div class="gallery-cell"><img src="/images/astronaut.jpg"></div>
+  <div class="gallery-cell"><img src="/images/hand.png"></div>
+  <div class="gallery-cell"><img src="/images/scissors.jpg"></div>
+  <div class="gallery-cell"><img src="/images/old-car.png"></div>
+</div>
+
+<br />
+
+<div class="main-gallery"> 
+  <div class="gallery-cell"><img src="/images/hand.png"></div>
+  <div class="gallery-cell"><img src="/images/astronaut.jpg"></div>
+  <div class="gallery-cell"><img src="/images/scissors.jpg"></div>
+</div>
+
+<script src="/assets/js/flickity.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/assets/js/slick.js"></script>
+
+<script>
+  // initialize flickity carousel
+  var mainCarousel = new Flickity( '.main-gallery', {
+    autoPlay: 1400
+  });
+
+  // initialize slick carousel
+  $(document).ready(function(){
+  $('.header-gallery').slick({
+    autoplay: true,
+    autoplaySpeed: 900,
+    arrows: false
+  });
+});
+</script>
