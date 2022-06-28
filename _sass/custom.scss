@@ -12,13 +12,11 @@ header h1 {
 }
 
 /* Set heading sizes on mobile */
-@media screen and (min-width: 375px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 425px) {
@@ -39,9 +37,10 @@ header h1 {
   }
 }
 
-/*** FIXING MOONWALK PADDING STUFF ***/
+/*** FIXING MOONWALK STUFF ***/
 .w {
   padding: 0 2em 0.5em 2em;
+  line-height: 1.3;
 }
 
 /*** CUSTOM STUFF ***/
