@@ -4,51 +4,71 @@
 <style>
   .gallery-cell {
     width: 100%;
-    height: 500px;
+    max-height: 500px;
     margin-right: 10px;
   }
   .header-gallery .gallery-cell {
     width: 100%;
-    height: 200px;
+    max-height: 200px;
     margin-right: 10px;
   }
   .header-gallery .gallery-cell img {
     height:100%;
   }
+  .main-carousel-slide {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 </style>
 
-<div class="header-gallery">
-  <div class="gallery-cell"><img src="/images/astronaut.jpg"></div>
-  <div class="gallery-cell"><img src="/images/hand.png"></div>
-  <div class="gallery-cell"><img src="/images/scissors.jpg"></div>
-  <div class="gallery-cell"><img src="/images/old-car.png"></div>
+<div class="header-gallery" style="background-color:rgb(242,242,242)">
+  <div class="gallery-cell" style="padding:0 20px;">
+    <h4 class="no-vertical-margin">As seen in Forbes!</h4>
+    <p class="no-vertical-margin reduced-line-height">Forbes magazine calls us one of the top businesses to watch this quarter.<br /><center><a href="#" class="no-blue-underline"><strong>Read the report</strong></a></center></p>
+  </div>
+  <div class="gallery-cell" style="padding:0 20px;">
+    <h4 class="no-vertical-margin">Read our white paper</h4>
+    <p class="no-vertical-margin reduced-line-height">Learn how our revolutionary technology is disrupting the industry.<br /><center><a href="#" class="no-blue-underline"><strong>Get access</strong></a></center></p>
+  </div>
 </div>
 
 <br />
 
 <div class="main-gallery"> 
-  <div class="gallery-cell"><img src="/images/hand.png"></div>
+  <!--<div class="gallery-cell main-carousel-slide" style="background-image:url('/images/hand.png');"> -->
+  <div class="gallery-cell main-carousel-slide"> 
+    <div>
+      <h4 class="no-vertical-margin">Synergy.</h4>
+      <img src="/images/hand.png">
+      <p>See how our platform synergizes your action items.</p>
+      <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
+    </div>
+  </div>
   <div class="gallery-cell"><img src="/images/astronaut.jpg"></div>
   <div class="gallery-cell"><img src="/images/scissors.jpg"></div>
 </div>
 
+<!-- Scripts -->
 <script src="/assets/js/flickity.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="/assets/js/slick.js"></script>
 
 <script>
-  // initialize flickity carousel
-  var mainCarousel = new Flickity( '.main-gallery', {
-    autoPlay: 1400
-  });
-
-  // initialize slick carousel
+  // initialize slick carousel (header)
   $(document).ready(function(){
   $('.header-gallery').slick({
     autoplay: true,
     autoplaySpeed: 900,
-    arrows: false
+    arrows: false,
   });
 });
+
+  // initialize flickity carousel (main)
+  var mainCarousel = new Flickity( '.main-gallery', {
+    autoPlay: false,
+    rightToLeft: true,
+    prevNextButtons: false
+  });
+
 </script>
