@@ -2,9 +2,8 @@
 <link rel="stylesheet" href="/assets/css/flickity.css" media="screen">
 <link rel="stylesheet" href="/assets/css/slick.css" media="screen">
 <style>
-  .gallery-cell {
+  .main-gallery .gallery-cell {
     width: 100%;
-    max-height: 500px;
     margin-right: 10px;
   }
   .header-gallery .gallery-cell {
@@ -35,7 +34,6 @@
 <br />
 
 <div class="main-gallery"> 
-  <!--<div class="gallery-cell main-carousel-slide" style="background-image:url('/images/hand.png');"> -->
   <div class="gallery-cell main-carousel-slide"> 
     <div>
       <h4 class="no-vertical-margin">Synergy.</h4>
@@ -44,8 +42,22 @@
       <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
     </div>
   </div>
-  <div class="gallery-cell"><img src="/images/astronaut.jpg"></div>
-  <div class="gallery-cell"><img src="/images/scissors.jpg"></div>
+  <div class="gallery-cell main-carousel-slide"> 
+    <div>
+      <h4 class="no-vertical-margin">Operationalize.</h4>
+      <img src="/images/astronaut.jpg" style="max-height:420px">
+      <p>What if you were looped in to all stakeholders' takeaways?</p>
+      <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
+    </div>
+  </div>
+  <div class="gallery-cell main-carousel-slide"> 
+    <div>
+      <h4 class="no-vertical-margin">Level set.</h4>
+      <img src="/images/scissors.jpg">
+      <p>Parallel pathing adds value and bandwidth.</p>
+      <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
+    </div>
+  </div>
 </div>
 
 <!-- Scripts -->
@@ -60,13 +72,15 @@
   $('.header-gallery').slick({
     autoplay: true,
     autoplaySpeed: 900,
+    /*speed: 10000, */
     arrows: false,
   });
 });
 
   // initialize flickity carousel (main)
   var mainCarousel = new Flickity( '.main-gallery', {
-    autoPlay: false,
+    autoPlay: 1100,
+    /*selectedAttraction: 0.0002, */
     rightToLeft: true,
     prevNextButtons: false
   });
