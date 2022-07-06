@@ -1,4 +1,5 @@
-/*** FIXING PAPER.CSS FONT STUFF ***/
+/*** FIXING PAPER.CSS STUFF ***/
+/** FONTS **/
 h1,h2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -35,6 +36,11 @@ h2 {
   h2 {
     font-size: 2rem;
   }
+}
+
+/** LINKS **/
+a {
+  background-image: none!important;
 }
 
 /*** FIXING MOONWALK STUFF ***/

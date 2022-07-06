@@ -1,0 +1,74 @@
+<div class="row search-box">
+  <div class="col no-vertical-padding sm-8">
+    <div class="form-group">
+      <input
+        class="input-block"
+        type="text"
+        id="search-input"
+        value="Default search box text"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="dashed"></div>
+
+<div>
+  <span id="result-top-line" class="result" ><strong>Ad</strong> https://<span id="result-domain">website</span>.com/ &nbsp;&nbsp;&#8942;</span >
+  <a href="#"
+    ><span id="result-heading" class="result">Default Ad Text</span></a
+  >
+  <span id="result-text" class="result"
+    >Default ad text. Ad text for an amazing link that you can't wait to
+    click.</span
+  >
+</div>
+
+<script>
+  // Update search box text and search result text based on query parameter
+  var params = new URLSearchParams(window.location.search);
+  if (params.has('search_input')) {
+    document.getElementById('search-input').value = params.get('search_input').replace(/\+/g, '%20');
+  }
+
+    if (params.has('result_domain')) {
+        update('result-domain', params.get('result_domain'));
+      }
+
+    if (params.has('result_heading')) {
+        update('result-heading', params.get('result_heading').replace(/\+/g, '%20'));
+      }
+
+    if (params.has('result_text')) {
+        update('result-text', params.get('result_text').replace(/\+/g, '%20'));
+      }
+
+  function update(elementID, newText) {
+    document.getElementById(elementID).innerText = newText;
+  }
+</script>
+<style>
+  .search-box {
+    margin-top: 40px;
+  }
+
+  .result {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  #result-top-line,
+  #result-text {
+    font-size: 14px;
+  }
+
+  #result-heading {
+    font-size: 24px;
+  }
+
+  .dashed {
+    border-color: rgba(0,0,0,0.3);
+  }
+</style>
+
