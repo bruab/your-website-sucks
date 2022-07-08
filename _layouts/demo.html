@@ -3,12 +3,11 @@ layout: default
 ---
 
 <header>
-{% if site.theme_config.show_navbar == true %}
-  <h1 class="faint">{{ site.title }}</h1>
+  {% if site.theme_config.show_navbar == true %}
+  <a href="/"><h1 class="faint">{{ site.title }}</h1></a>
   <div class="dashed"></div>
   <!--{% include horizontal_list.html collection=site.data.home.navbar_entries %} -->
-{% endif %}
+  {% endif %}
 </header>
 
 {{ content }}
-
