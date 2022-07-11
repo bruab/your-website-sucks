@@ -4,7 +4,9 @@ layout: home
 
 # Read the book!
 ![Your Website Sucks book image](/images/yws-book.png){: width="400" style="margin-bottom:40px" }
-_**Your Website Sucks:** Here's how to fix it_ is in beta. If you don't mind a few rough edges, and you're willing to offer some feedback (in the form of emoji reactions), you can read it now.
+_**Your Website Sucks:** Here's how to fix it_ is in beta. 
+
+If you don't mind a few rough edges, and you're willing to offer some feedback (in the form of emoji reactions), you can read it now.
 
 <center><a href="https://helpthisbook.com/briandavidhall/your-website-sucks" class="paper-btn">Become a beta reader</a></center>
 <br />
@@ -24,6 +26,6 @@ You'll receive a short, to-the-point email about one common website mistake, why
 <br />
 ## Watch the videos!
 ![Your Website Sucks YouTube playlist screenshot](/images/yws-videos.png){: width="350" style="margin-bottom:40px" }
-Quick tutorials and interviews with UX, conversion, and design experts in which they lay out the most glaring website mistakes they see, and how to avoid them.
+Quick tips, website teardowns, and talks with UX, conversion, and design experts in which they lay out the most glaring website mistakes they see, and how to avoid them.
 
-<center><a href="https://www.youtube.com/playlist?list=PL7q12E_LbqGr9FEmorMDEbs56a_NdQdN3" class="paper-btn">Watch on YouTube</a></center>
+<center><a href="https://www.youtube.com/channel/UCi7Tdfq87gF7atPHzGRb99A" class="paper-btn">Watch on YouTube</a></center>
