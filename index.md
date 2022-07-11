@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Your Website Sucks
 ---
 
 # Read the book!
