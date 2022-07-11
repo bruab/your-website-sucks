@@ -45,6 +45,13 @@ a {
 a:visited {
   color: #0071de;
 }
+a.paper-btn, a.paper-btn:visited {
+  color: #333;
+}
+
+label {
+  font-family: "Neucha", sans-serif;
+}
 
 /*** FIXING MOONWALK STUFF ***/
 .w {

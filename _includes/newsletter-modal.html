@@ -1,0 +1,34 @@
+<div class="paper-container">
+  <div class="row flex-spaces child-borders">
+    <label class="paper-btn margin" for="modal-{{ include.modal_number | default: '1' }}">{{ include.cta | default: "Subscribe for free" }}</label>
+  </div>
+  <input class="modal-state" id="modal-{{ include.modal_number | default: '1' }}" type="checkbox">
+  <div class="modal">
+    <label class="modal-bg" for="modal-{{ include.modal_number | default: '1' }}"></label>
+    <div class="modal-body">
+      <label class="btn-close" for="modal-{{ include.modal_number | default: '1' }}">X</label>
+      <form
+    action="https://buttondown.email/api/emails/embed-subscribe/your-website-sucks"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/your-website-sucks', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+  <label for="bd-email">{{ include.label | default: "Sign up for biweekly website tips" }}</label>
+    <input type="email" name="email" id="bd-email" />
+    <center><input type="submit" value="{{ include.submit_cta | default: 'Subscribe'}}" /></center>
+    </form>
+    </div>
+  </div>
+</div>
+
+<style>
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 100%;
+}
+</style>
