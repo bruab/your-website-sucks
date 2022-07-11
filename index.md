@@ -15,7 +15,7 @@ If you don't mind a few rough edges, and you're willing to offer some feedback (
 
 <br />
 ## Get the newsletter!
-![Your Website Sucks newsletter signup screenshot](/images/yws-newsletter.png){: width="350" style="margin-bottom:40px" }
+![Your Website Sucks newsletter screenshot](/images/yws-newsletter.png){: width="350" style="margin-bottom:40px" }
 You'll receive a short, to-the-point email about one common website mistake, why it's a problem, and how to fix it. Delivered to your inbox every other Friday.
 
 {% include newsletter-modal.html modal_number="2" %}
