@@ -2,7 +2,20 @@
 layout: default
 ---
 
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+<header>
+{% if site.theme_config.show_navbar == true %}
+  <a href="/"><h1>{{ site.title }}</h1></a>
+  <div class="dashed"></div>
+  <!--{% include horizontal_list.html collection=site.data.home.navbar_entries %} -->
+{% endif %}
+</header>
+
 <h1 class="post-title">{{ page.title }}</h1>
-{% include date_and_social_share.html %}
+<br />
 {{ content }}
+
+<style>
+img {
+  width: 80%;
+}
+</style>
