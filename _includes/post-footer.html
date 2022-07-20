@@ -1,0 +1,34 @@
+<hr />
+<p>
+  If you found this post helpful, you should probably sign up to get tips like
+  this every other Friday.
+</p>
+<p></p>
+<div class="paper-container">
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/your-website-sucks"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/your-website-sucks', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <input type="email" name="email" id="bd-email" placeholder="Your email address" />
+    <center>
+      <input
+        type="submit"
+        value="{{ include.submit_cta | default: 'Subscribe'}}"
+      />
+    </center>
+  </form>
+</div>
+
+<style>
+  input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+</style>
