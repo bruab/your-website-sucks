@@ -1,0 +1,20 @@
+<h5 id="video-heading">Please watch our Product Overview Video!!!</h5>
+<img src="/images/factory-video-unplayed.png" id="product-video" />
+
+<script>
+  document
+    .getElementById("product-video")
+    .addEventListener("click", updatePage, false);
+  function updatePage(e) {
+    console.log(e);
+    e.target.src = "/images/factory-video-played.png";
+    document.getElementById("video-heading").innerText =
+      "Thank you for watching our Product Overview Video!!";
+  }
+</script>
+
+<style>
+  h5 {
+    text-align: center;
+  }
+</style>
