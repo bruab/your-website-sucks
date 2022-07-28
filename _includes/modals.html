@@ -1,0 +1,133 @@
+<br />
+<div>
+  <div class="row">
+    <div class="col sm-8">
+      <img src="/images/milking-cow.png">
+    </div>
+    <div class="col sm-4">
+      <h4><span>Fresh milk, delivered to your doorstep</span></h4>
+      <p>$79/month</p>
+      <center><a href="#" class="paper-btn clear">Subscribe Now</a></center>
+    </div>
+  </div>
+</div>
+
+<input class="alert-state" id="alert-2" type="checkbox">
+<div class="alert alert-primary location white dismissible">
+  <div>
+    Milkily.io wants to know your location
+  </div>
+  <div>
+    <center><a href="#" class="paper-btn clear">Enable Location Services</a></center>
+  </div>
+  <label class="btn-close" for="alert-1">X</label>
+</div>
+
+<input class="alert-state" id="alert-1" type="checkbox">
+<div class="alert alert-primary notifications dismissible row">
+  <div class="col sm-8">
+    Click to enable notifications
+  </div>
+  <div class="col sm-4">
+    <a href="#" class="paper-btn clear">YES</a> 
+    <a class="smol" href="#">No</a>
+  </div>
+  <label class="btn-close" for="alert-1">X</label>
+</div>
+
+<input class="alert-state" id="alert-2" type="checkbox">
+<div class="alert alert-primary newsletter white dismissible">
+  <div>
+    Get the latest Milkily.io updates in your inbox!
+  </div>
+  <div>
+    <input class="input-block" type="text" id="paperInputs2">
+    <center><a href="#" class="paper-btn clear">Subscribe</a></center>
+  </div>
+  <label class="btn-close" for="alert-1">X</label>
+</div>
+
+<style>
+.white {
+  background-color: #fff;
+}
+
+.location {
+  width: 30%;
+  margin-left: 0;
+  position: relative;
+  font-size: 10px;
+  bottom: 350px;
+  flex-direction: column;
+}
+
+.location .paper-btn {
+  padding: 4px;
+  margin-top: 8px;
+}
+
+.notifications {
+  width: 40%;
+  position: relative;
+  font-size: 12px;
+  bottom: 480px;
+}
+
+.smol {
+  font-size: 8px;
+}
+
+.newsletter {
+  width: 50%;
+  position: relative;
+  font-size: 12px;
+  bottom: 510px;
+  flex-direction: column;
+  background-color: rgba(255,255,255,0.7);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.newsletter input {
+  margin: 10px auto;
+}
+
+.col {
+  padding: 0;
+}
+
+.btn-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.paper-btn {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+h4, p {
+  margin: 20px 10px 10px 10px;
+  text-align: center;
+}
+
+a {
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+
+  .location {
+    width: 40%;
+    bottom: 200px;
+  }
+
+  .notifications {
+    width: 60%;
+    bottom: 280px;
+  }
+
+}
+</style>
+
