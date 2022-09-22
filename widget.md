@@ -9,7 +9,7 @@ Our platform is designed to bring you the greatest value for the least effort. G
 
 ## Not like the others
 
-You might think we're the same as the competition, but we're not. Not at all. Totally different! Okay glad we could clear that up.
+You might think we're the same as the competition, but we're not. Not at all. Totally different! Okay, glad we could clear that up.
 
 ## Just the platform you needed
 
