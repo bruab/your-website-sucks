@@ -7,7 +7,7 @@ title: Digital Excellence
 
 <div class="gray-bg">
   <br />
-  <center><p>Our industry cloud solutions span R&D to ecommerce.</p></center>
+  <center><p>Our industry cloud solutions span R&D to e-commerce.</p></center>
   <div class="row">
     <div class="col sm-6">
       <center>
