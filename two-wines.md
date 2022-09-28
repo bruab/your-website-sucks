@@ -11,7 +11,7 @@ Time to party! This box includes two sparkling wines to liven up your next gathe
 
 You'll receive:
 
-- Complementary sipping glass
+- Complimentary sipping glass
 - Your choice of two wines
 - Pairing guide
 
