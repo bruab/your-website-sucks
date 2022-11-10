@@ -25,7 +25,7 @@ Here’s an example:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TAaf4FWQF0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can see more [here](https://www.youtube.com/playlist?list=PL7q12E_LbqGqeTps3iaJD2i3Ysgpgpyn2){:target="_blank"}{:rel="noopener noreferrer"}
+You can see more [here](https://www.youtube.com/playlist?list=PL7q12E_LbqGqeTps3iaJD2i3Ysgpgpyn2).
 
 ## "Why should I bother?"
 

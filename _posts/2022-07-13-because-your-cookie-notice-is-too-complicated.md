@@ -11,7 +11,7 @@ It _becomes_ personal, though, when your cookie notice somehow becomes a convolu
 
 ![screenshot of a complicated cookie notice](/images/huge-notice.png)
 
-The most fundamental rule of website usability is [Don't make me think](https://sensible.com/dont-make-me-think/){:target="_blank"}{:rel="noopener noreferrer"}.
+The most fundamental rule of website usability is [Don't make me think](https://sensible.com/dont-make-me-think/).
 
 But for some reason, you're asking me to think about the law, web technology, and my own privacy - all before I've even seen what it is you sell.
 
