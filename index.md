@@ -4,7 +4,8 @@ title: Your Website Sucks
 ---
 
 # Read the book!
-![Your Website Sucks book image](/images/yws-book.png){: width="400" style="margin-bottom:40px" }
+![Your Website Sucks book image](/images/yws-cover.png){: max-width="600" style="margin-bottom:40px" }
+
 _**Your Website Sucks:** Here's how to fix it_ is available for purchase.
 
 
