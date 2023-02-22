@@ -4,7 +4,7 @@ title: Your Website Sucks
 ---
 
 # Read the book!
-![Your Website Sucks book image](/images/yws-cover.png){: max-width="600" style="margin-bottom:40px" }
+[![Your Website Sucks book image](/images/yws-cover.png){: max-width="600" style="margin-bottom:40px" }](/images/yws-cover.png)
 
 <center><a href="https://gum.co/your-website-sucks" class="paper-btn" target="_blank" rel="noopener noreferrer">Buy PDF on Gumroad</a><a href="https://www.amazon.com/dp/B0BVSXB5W7" class="paper-btn" target="_blank" rel="noopener noreferrer">Buy paperback or Kindle on Amazon</a></center>
 
