@@ -9,8 +9,16 @@ title: Your Website Sucks
 <center><a href="https://gum.co/your-website-sucks" class="paper-btn" target="_blank" rel="noopener noreferrer">Buy PDF on Gumroad</a><a href="https://www.amazon.com/dp/B0BVSXB5W7" class="paper-btn" target="_blank" rel="noopener noreferrer">Buy paperback or Kindle on Amazon</a></center>
 
 > "Nice and light, very well written, and very approachable. Love the hand illustrations too.
->
->
+>  
+>  
 > I will finish it tomorrow and take its pointers to heart: I am rewriting my own website ad I have several of the issues you highlighted."
 
 —[Fraser Gorrie](https://frasergorrie.com/), NoCode Strategist
+
+<style type="text/css">
+.paper-btn {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+</style>
+
