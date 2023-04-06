@@ -14,4 +14,4 @@ layout: demo
 >
 > It might be challenging, but for the sake of your users (and revenue), you should replace your carousel(s) with a single, relevant, static image.
 
-(If you found this guideline helpful, you can read a whole bunch of them in **[Your Website Sucks, Here's How to Fix It](/)**.)
+(If you found this guideline helpful, you can read a whole bunch of them in **[Your Website Sucks, Here's How to Fix It](https://www.amazon.com/dp/B0BVSXB5W7)**.)
