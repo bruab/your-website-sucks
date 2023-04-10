@@ -19,6 +19,14 @@ Schedule a time to talk to one of our sales representatives today!
 
 {% include this-sucks.html %}
 
+> The main purpose of the page is to get people to schedule a demo with the sales team.
+> 
+> &nbsp;
+> 
+> But you can't even see the "Schedule a Demo" button—it's covered up by the newsletter popup.
+> 
+> &nbsp;
+> 
 > It's best to use widgets and popups sparingly, and strategically.
 > 
 > &nbsp;
@@ -33,4 +41,4 @@ Schedule a time to talk to one of our sales representatives today!
 > 
 > And be sure you don't clutter up your page with so many popups that visitors can't even complete the action you *want* them to take, like signing up or booking a call.
 
-(If you found this guideline helpful, you can read a whole bunch of them in **[Your Website Sucks, Here's How to Fix It](https://www.amazon.com/dp/B0BVSXB5W7)**.)
+{% include footer-cta.html %}

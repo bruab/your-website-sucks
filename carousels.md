@@ -6,7 +6,7 @@ layout: demo
 
 {% include this-sucks.html %}
 
-> Carousels (or "image sliders" or "slideshows") are a great way to settle _internal_ disputes over which content should go where - just put it all in there! Done!<br /><br />
+> Carousels (or "image sliders" or "slideshows") are a great way to settle **internal** disputes over which content should go where - just put it all in there! Done!<br /><br />
 >
 > For _visitors_, though, they're unhelpful. For _conversions_, they tend to be detrimental.<br /><br />
 >
@@ -14,4 +14,4 @@ layout: demo
 >
 > It might be challenging, but for the sake of your users (and revenue), you should replace your carousel(s) with a single, relevant, static image.
 
-(If you found this guideline helpful, you can read a whole bunch of them in **[Your Website Sucks, Here's How to Fix It](https://www.amazon.com/dp/B0BVSXB5W7)**.)
+{% include footer-cta.html %}
