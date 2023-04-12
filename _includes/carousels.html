@@ -2,6 +2,20 @@
 <link rel="stylesheet" href="/assets/css/flickity.css" media="screen">
 <link rel="stylesheet" href="/assets/css/slick.css" media="screen">
 <style>
+  .carousels-wrapper {
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 48px;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-left-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-right-radius: 15px 225px;
+    border-top-left-radius: 225px 15px;
+  }
+  .gallery-cell {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
   .main-gallery .gallery-cell {
     width: 100%;
     margin-right: 10px;
@@ -18,48 +32,52 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .flickity-page-dots {
+    display: none
+  }
 </style>
 
-<div class="header-gallery" style="background-color:rgb(242,242,242)">
-  <div class="gallery-cell" style="padding:0 20px;">
-    <h4 class="no-vertical-margin">As seen in Forbes!</h4>
-    <p class="no-vertical-margin reduced-line-height">Forbes magazine calls us one of the top businesses to watch this quarter.<br /><center><a href="#" class="no-blue-underline"><strong>Read the report</strong></a></center></p>
+<div class="carousels-wrapper">
+  <div class="header-gallery">
+    <div class="gallery-cell" style="padding:0 20px;">
+      <h4 class="no-vertical-margin">As seen in Forbes!</h4>
+      <p class="no-vertical-margin reduced-line-height">Forbes magazine calls us one of the top businesses to watch this quarter.<br /><center><a href="#" class="no-blue-underline"><strong>Read the report</strong></a></center></p>
+    </div>
+    <div class="gallery-cell" style="padding:0 20px;">
+      <h4 class="no-vertical-margin">Read our white paper</h4>
+      <p class="no-vertical-margin reduced-line-height">Learn how our revolutionary technology is disrupting the industry.<br /><center><a href="#" class="no-blue-underline"><strong>Get access</strong></a></center></p>
+    </div>
   </div>
-  <div class="gallery-cell" style="padding:0 20px;">
-    <h4 class="no-vertical-margin">Read our white paper</h4>
-    <p class="no-vertical-margin reduced-line-height">Learn how our revolutionary technology is disrupting the industry.<br /><center><a href="#" class="no-blue-underline"><strong>Get access</strong></a></center></p>
+
+  <br />
+
+  <div class="main-gallery"> 
+    <div class="gallery-cell main-carousel-slide"> 
+      <div>
+        <h4 class="no-vertical-margin">Synergy.</h4>
+        <img src="/images/hand.png">
+        <p>See how our platform synergizes your action items.</p>
+        <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
+      </div>
+    </div>
+    <div class="gallery-cell main-carousel-slide"> 
+      <div>
+        <h4 class="no-vertical-margin">Operationalize.</h4>
+        <img src="/images/astronaut.jpg" style="max-height:420px">
+        <p>What if you were looped in to all stakeholders' takeaways?</p>
+        <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
+      </div>
+    </div>
+    <div class="gallery-cell main-carousel-slide"> 
+      <div>
+        <h4 class="no-vertical-margin">Level set.</h4>
+        <img src="/images/scissors.jpg">
+        <p>Parallel pathing adds value and bandwidth.</p>
+        <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
+      </div>
+    </div>
   </div>
 </div>
-
-<br />
-
-<div class="main-gallery"> 
-  <div class="gallery-cell main-carousel-slide"> 
-    <div>
-      <h4 class="no-vertical-margin">Synergy.</h4>
-      <img src="/images/hand.png">
-      <p>See how our platform synergizes your action items.</p>
-      <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
-    </div>
-  </div>
-  <div class="gallery-cell main-carousel-slide"> 
-    <div>
-      <h4 class="no-vertical-margin">Operationalize.</h4>
-      <img src="/images/astronaut.jpg" style="max-height:420px">
-      <p>What if you were looped in to all stakeholders' takeaways?</p>
-      <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
-    </div>
-  </div>
-  <div class="gallery-cell main-carousel-slide"> 
-    <div>
-      <h4 class="no-vertical-margin">Level set.</h4>
-      <img src="/images/scissors.jpg">
-      <p>Parallel pathing adds value and bandwidth.</p>
-      <center><input type="button" class="paper-btn btn-primary" value="Get synergized"/></center>
-    </div>
-  </div>
-</div>
-<br />
 
 <!-- Scripts -->
 <script src="/assets/js/flickity.min.js"></script>
