@@ -12,7 +12,7 @@ To you, they might seem fun and engaging. The truth is:
 - They’re hard to click on. 
 - They’re problematic for people using screen readers* 
 
-For all these reasons, they’re bad for conversion and user experience. This is a well-worn topic among UX and conversion professionals.
+For all these reasons, they’re bad for conversion and user experience. This is a [well-worn](https://shouldiuseacarousel.com/) [topic](https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/) among [UX and conversion professionals](https://www.nngroup.com/articles/designing-effective-carousels/).
 
 But you still have one, don’t you? You might even be putting two on the same page.
 
@@ -22,7 +22,7 @@ For the sake of conversions, and your visitors’ eyeballs, please stop.
 
 ## Here's how to fix it
 
-Replace your carousel with a single, static element.
+**Replace your carousel with a single, static element.**
 
 Use the combination of message, call to action, and (optional) image that is most relevant to most of your customers.
 
@@ -40,5 +40,5 @@ Sucks for you. And your visitors.
 
 ---
 
-\*an assistive technology that speaks the contents of the screen to visitors
+\*_an assistive technology that speaks the contents of the screen to visitors_
 
