@@ -5,6 +5,8 @@ title: "... because it won't sit still"
 
 Let’s talk about carousels - those dynamic elements that rotate between multiple images, and sometimes multiple headlines and buttons as well.
 
+{% include carousels.html %}
+
 To you, they might seem fun and engaging. The truth is: 
 
 - They’re distracting 
@@ -15,8 +17,6 @@ To you, they might seem fun and engaging. The truth is:
 For all these reasons, they’re bad for conversion and user experience. This is a [well-worn](https://shouldiuseacarousel.com/) [topic](https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/) among [UX and conversion professionals](https://www.nngroup.com/articles/designing-effective-carousels/).
 
 But you still have one, don’t you? You might even be putting two on the same page.
-
-{% include carousels.html %}
 
 For the sake of conversions, and your visitors’ eyeballs, please stop.
 

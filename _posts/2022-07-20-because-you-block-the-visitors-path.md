@@ -1,8 +1,7 @@
 ---
 layout: post
+title: "... because you block the visitor's path"
 ---
-
-# … because you block the user's path
 
 When you added that chat widget, you placed it unassumingly in the bottom right of the user's screen:
 
