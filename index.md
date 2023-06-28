@@ -8,6 +8,8 @@ title: Your Website Sucks
 
 <center><a href="https://www.amazon.com/dp/B0BVSXB5W7" class="paper-btn" target="_blank" rel="noopener noreferrer">Buy on Amazon</a></center>
 
+<div style="margin-top: 20px"><center>or <a data-formkit-toggle="e1bf8f818b" href="https://skilled-mover-4977.ck.page/e1bf8f818b">Read a Sample</a></center></div>
+
 > "Nice and light, very well written, and very approachable. Love the hand illustrations too.
 > &nbsp;  
 > &nbsp;  
@@ -22,3 +24,4 @@ title: Your Website Sucks
 }
 </style>
 
+<script async data-uid="e1bf8f818b" src="https://skilled-mover-4977.ck.page/e1bf8f818b/index.js"></script>
