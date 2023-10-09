@@ -19,7 +19,7 @@ There's some great information on user testing in [this interview](https://www.y
 
 Use a tool like [Microsoft Clarity](https://clarity.microsoft.com/) (free) or [Mouseflow](https://mouseflow.com/) (cheap) to collect data on where visitors click, scroll, and move their mouse - then replay that data as a recording.
 
-For help, check out my free guide, [Session Recordings: How to improve conversions on your website in less than 25 hours a day](https://docs.google.com/document/d/16uiOgnriqUtW_8R6QlBMUJ0LA4qZK92JAN1nA4joRCM/edit?usp=sharing).
+For help, check out my free guide, [Session Recordings: How to improve conversions on your website in less than 25 hours a day](https://briandavidhall.com/session-recordings-guide.pdf).
 
 ## Polls
 
