@@ -1,5 +1,5 @@
 <h5 id="video-heading">Please watch our Product Overview Video!!!</h5>
-<img src="/images/factory-video-unplayed.png" id="product-video" />
+<img src="/assets/images/factory-video-unplayed.png" id="product-video" />
 
 <script>
   document
@@ -7,7 +7,7 @@
     .addEventListener("click", updatePage, false);
   function updatePage(e) {
     console.log(e);
-    e.target.src = "/images/factory-video-played.png";
+    e.target.src = "/assets/images/factory-video-played.png";
     document.getElementById("video-heading").innerText =
       "Thank you for watching our Product Overview Video!!";
   }

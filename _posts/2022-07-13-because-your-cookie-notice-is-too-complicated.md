@@ -9,7 +9,7 @@ But it's nothing personal - I know you're just staying in compliance with the la
 
 It _becomes_ personal, though, when your cookie notice somehow becomes a convoluted mini-site in its own right:
 
-![screenshot of a complicated cookie notice](/images/huge-notice.png)
+![screenshot of a complicated cookie notice](/assets/images/huge-notice.png)
 
 The most fundamental rule of website usability is [Don't make me think](https://sensible.com/dont-make-me-think/).
 
@@ -25,7 +25,7 @@ And worst of all, you won't even know we were here - because we left the site be
 
 _With your legal department's approval_, use the shortest, simplest cookie notice possible. Here's a good example:
 
-![screenshot of a simple cookie notice - "We use cookies to enhance your experience ..." and a button that says "Got it!"](/images/simple-notice.png)
+![screenshot of a simple cookie notice - "We use cookies to enhance your experience ..." and a button that says "Got it!"](/assets/images/simple-notice.png)
 
 The language is concise and straightforward. The button text is clear and informal. The button itself is large and prominent.
 

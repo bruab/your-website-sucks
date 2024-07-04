@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en" }}" class="html" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
-        {%- include head.html -%}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
+
+    {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
+
+    <link rel="apple-touch-icon" href="{{ site.icon }}">
+
+    <!-- ConvertKit snippet -->
+    <script async data-uid="4d2d26c4fd" src="https://skilled-mover-4977.ck.page/4d2d26c4fd/index.js"></script>
+
+  <!-- Fathom - beautiful, simple website analytics -->
+  <script src="https://nice-fetching.yourwebsitesucks.fyi/script.js" data-site="UVFDOJSK" defer></script>
+  <!-- / Fathom -->
+
+  </head>
   <body>
-    <main class="page-content" aria-label="Content">
-      <div class="w">
-        {{ content }}
-        <div class="credits">
-          {%- if site.theme_config.show_copyright == true -%}
-          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
-          &nbsp;
-          {%- endif -%}
-        </div>
-      </div>
-    </main>
+
+    {{ content }}
+
+    {% include menu.html %}
+
+    {% unless site.hide_credits %}
+      <aside class="site-credits">
+        <p>
+          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
+        </p>
+      </aside>
+    {% endunless %}
+
+    <center class="copyright">&copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}&nbsp;</center>
+
   </body>
 </html>

@@ -1,0 +1,13 @@
+---
+layout: post
+---
+
+{{ content }}
+
+<p>
+<strong>Tags:</strong> 
+{% for tag in page.tags %}
+<a href="/{{ tag | remove: "'" | slugify: none }}">{{ tag }}{% if forloop.last != true %}</a>, {% else %}</a>{% endif %}
+{% endfor %} 
+</p>
+

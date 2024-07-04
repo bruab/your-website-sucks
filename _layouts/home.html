@@ -2,21 +2,28 @@
 layout: default
 ---
 
-<header>
-{% if site.theme_config.show_navbar == true %}
-  <a href="/"><h1 class="nav-header">{{ site.title }}</h1></a>
-  <div class="dashed"></div>
-  <!--{% include horizontal_list.html collection=site.data.home.navbar_entries %} -->
-{% endif %}
+<header class="site-masthead">
+  {% include menu.html %}
+  {% if site.title %}
+    <h1>
+      {{ site.title }}
+    </h1>
+  {% endif %}
+  {% if site.title %}
+    <h2>
+      {{ site.description }}
+    </h2>
+  {% endif %}
 </header>
 
-{{ content }}
+<div class="homepage-image"><img src="assets/images/yws-cover.png" alt="Your Website Sucks book image"></div>
 
-{% if site.theme_config.show_footer == true %}
-  <footer>
-    <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
-  </footer>
-{% endif %}
+<main class="home" id="main" role="main" aria-label="Content">
 
-{% include footer-scripts.html %}
+  <center><a class="cta" href="https://www.amazon.com/dp/B0BVSXB5W7">Buy on Amazon</a></center>
+
+  <div style="margin-top: 30px"><center><p>or <a data-formkit-toggle="e1bf8f818b" href="https://skilled-mover-4977.ck.page/e1bf8f818b">Read a Sample</a></p></center></div>
+
+</main>
+
+<script async data-uid="e1bf8f818b" src="https://skilled-mover-4977.ck.page/e1bf8f818b/index.js"></script>

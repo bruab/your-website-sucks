@@ -13,21 +13,21 @@ In particular, don't reject what I type into the form when it's ... completely v
 
 Like this:
 
-[![screenshot of a form with error: "offensive language discovered in the last name field" - last name is wiener](/images/natalie-wiener-form-validation.jpeg)](https://twitter.com/natalieweiner/status/1034533245839450113)
+[![screenshot of a form with error: "offensive language discovered in the last name field" - last name is wiener](/assets/images/natalie-wiener-form-validation.jpeg)](https://twitter.com/natalieweiner/status/1034533245839450113)
 
 or this:
 
-[![screenshot of a form with error: "invalid last name" - last name is O'Hearn](/images/brint-ohearn-form-validation.jpeg)](https://twitter.com/brintly/status/999322836048187394)
+[![screenshot of a form with error: "invalid last name" - last name is O'Hearn](/assets/images/brint-ohearn-form-validation.jpeg)](https://twitter.com/brintly/status/999322836048187394)
 
 Be careful about what form fields you set as "required" - I recently made a purchase on a site that wouldn't let me enter my shipping address without providing an apartment number:
 
-![screenshot of "shipping address" form with error - "Enter an apartment, suite, etc."](/images/error-apartment-required.png)
+![screenshot of "shipping address" form with error - "Enter an apartment, suite, etc."](/assets/images/error-apartment-required.png)
 
 (I don't live in an apartment, so I just typed "..." into this field.)
 
 And as much as you might love error messages, try to display just one at a time:
 
-![screenshot of password input field error messages - illegible because there are two messages overlapping](/images/overlapping-error-messages.png)
+![screenshot of password input field error messages - illegible because there are two messages overlapping](/assets/images/overlapping-error-messages.png)
 
 Adding frustration to this crucial step is a great way to make visitors reconsider their decision, and potentially abandon your site _right before converting_.
 
