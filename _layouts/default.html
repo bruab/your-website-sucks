@@ -19,7 +19,15 @@
 
   <!-- Fathom - beautiful, simple website analytics -->
   <script src="https://nice-fetching.yourwebsitesucks.fyi/script.js" data-site="UVFDOJSK" defer></script>
+  <!-- Track 404s -->
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+    var path = window.location.pathname;
+    fathom.trackEvent('404: ' + path);
+  });
+  </script>
   <!-- / Fathom -->
+
 
   </head>
   <body>
