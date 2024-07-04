@@ -3,7 +3,7 @@ layout: page
 title: Book resources
 ---
 
-Here are links to tools, courses, and articles to help you with some of the topics mentioned in **Your Website Sucks**.
+Thanks for reading! Here are links to tools, courses, and articles to help you with some of the topics mentioned in **Your Website Sucks**.
 
 ## 5 second test
 
