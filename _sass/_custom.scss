@@ -91,3 +91,11 @@ blockquote > * {
   padding-bottom: 12px;
 }
 
+/* Style <select> */
+select, option {
+  padding: 6px;
+  cursor: pointer;
+  font-family: $font-family;
+  font-size: 16px;
+  color: $text-color;
+}
