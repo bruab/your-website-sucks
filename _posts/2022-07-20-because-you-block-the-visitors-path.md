@@ -5,11 +5,11 @@ title: "... because you block the visitor's path"
 
 When you added that chat widget, you placed it unassumingly in the bottom right of the user's screen:
 
-![shoe store with a single widget](images/one-widget.png)
+![shoe store with a single widget](assets/images/one-widget.png)
 
 So when you decided to try out that discount-for-email-opt-in widget, you put it safely in the bottom left:
 
-![shoe store with two widgets](images/two-widgets.png)
+![shoe store with two widgets](assets/images/two-widgets.png)
 
 Plenty of space left over for visitors to read your amazing copy, marvel at your striking visuals, click your irresistible buttons.
 
@@ -23,11 +23,11 @@ And that slope gets extra steep where the widgets meet a button or link that's t
 
 Like, say, Add to Bag:
 
-![shoe store with two widgets blocking view on mobile](images/two-widgets-mobile.png)
+![shoe store with two widgets blocking view on mobile](assets/images/two-widgets-mobile.png)
 
 or Schedule a Demo:
 
-![web page with "schedule a demo" button blocked by widget](images/schedule-a-demo-blocked.png)
+![web page with "schedule a demo" button blocked by widget](assets/images/schedule-a-demo-blocked.png)
 
 Covering up these buttons is like putting yellow police tape around your cash register and asking customers to crawl under it. It's like answering a sales call and saying "oh hey thanks for reaching out, lemme put you on hold for a minute."
 
