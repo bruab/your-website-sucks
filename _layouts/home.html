@@ -22,13 +22,11 @@ layout: default
 
   <center><a class="cta" href="https://www.amazon.com/dp/B0BVSXB5W7">Buy on Amazon</a></center>
 
-  <div style="display: none;"><a id="sample-link" data-formkit-toggle="e1bf8f818b" href="https://skilled-mover-4977.ck.page/e1bf8f818b">Read a sample</a></div>
-
   <div style="margin-top: 30px">
     <center>
       <select onchange="onSelectChange(this.value)">
           <option value="" selected disabled hidden>Do something else</option>
-        <option value="sample">Read a sample</option>
+        <option value="https://yourwebsitesucks.fyi/sample">Read a sample</option>
         <option value="https://shop.briandavidhall.com/l/your-website-sucks">Buy the book (but not from Jeff Bezos)</option>
         <option value="https://briandavidhall.com/anonymous-feedback/">Send the author a message</option>
       </select>
@@ -39,15 +37,7 @@ layout: default
 
 <script type="text/javascript">
 function onSelectChange(val) {
-  console.log('select');
-  console.log(val)
-  if (val == "sample") {
-    console.log('sample');
-    document.getElementById('sample-link').click();
-  } else {
-    location = val;
-  }
+  location = val;
 }
 </script>
 
-<script async data-uid="e1bf8f818b" src="https://skilled-mover-4977.ck.page/e1bf8f818b/index.js"></script>
